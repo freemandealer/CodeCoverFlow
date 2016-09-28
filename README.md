@@ -18,7 +18,7 @@ There are plenty of ways to install vim plugins. I suggest using Vundle [https:/
 
 After Vundle is setup, add this line to your Vundle script area. If you followed the instructions in the link above, add to somewhere between `call vundle#begin()` and `call vundle#end()` in your .vimrc file.
 
-	Plugin 'freemandealer/CodeCoverFlow'
+	Plug 'freemandealer/CodeCoverFlow'
 
 Then Launch vim and run `:PluginInstall`. From now on, you can use `<leader>g]` and `<leader><C-t>` to browse your code.
 
