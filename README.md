@@ -4,7 +4,7 @@
 
 CodeCoverFlow is a vim plugin intended to help analyse code. It can be considered as an enhanced version of vim built-in code nivigator (`g]`/`<C-t>` stuff).
 
-CodeCoverFlow will display the definitions of functions/variables in new windows, and keep original information in sight. It is useful for those who tend to forget evoking context and input parameters. This process can be done iteratively, as you may easily imagine when see the name 'CoverFlow'.
+It is useful for those who tend to forget evoking context and input parameters when diving into definitions. CodeCoverFlow will display the definitions of functions/variables in new windows while keeping original window in sight. This process can be done iteratively, and creates a bidirectional flow between these windows.
 
 ![Screencast: forward](https://freemandealer.github.io/img/codecoverflow_forward.gif)
 
@@ -26,7 +26,7 @@ Enjoy!
 
 ## ACKNOWLEDGEMENT
 
-CodeCoverFlow is inspired by [Apple OS X Finder's CoverFlow display sytle](https://freemandealer.github.io/img/apple_coverflow.png) (that's where we get the name apparently). So, Great job, Jobs!
+CodeCoverFlow is inspired by [Apple OS X Finder's CoverFlow display sytle](https://freemandealer.github.io/img/apple_coverflow.png) (that's where we get the name apparently). So, great job, Jobs!
 
 Also thanks to people on the vim_use mailling list, they gave me plenty of useful suggestions so that I could start with this work.
 
